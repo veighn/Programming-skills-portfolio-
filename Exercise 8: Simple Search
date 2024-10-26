@@ -1,0 +1,8 @@
+Names =  {"Jake" "Zac", "Ian", "Ron", "Sam", "Dave"}
+
+Search_name = "Sam"
+
+if Search_name in Names:
+    print(f"{Search_name} Name found")
+else:
+    print(f"{Search_name} name not found")
