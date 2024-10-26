@@ -1,0 +1,12 @@
+correctpassword = "12345"
+
+while True :
+    password = input("enter password:").strip()
+    
+    if password == correctpassword:
+        
+        print ("correct password")
+    else:
+        print ("incorrect password, please try again")
+        
+        
