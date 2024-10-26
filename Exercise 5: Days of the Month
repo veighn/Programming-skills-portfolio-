@@ -1,0 +1,11 @@
+
+days_in_a_month = {1: 31, 2: 28, 3: 31, 4: 30, 5: 31, 6: 30, 7: 31, 8: 31, 9: 30, 10: 31, 11: 30, 12: 31} #dictionary with the days containing in a month
+
+month = int(input("enter your month (1-12): "))
+
+if 1 <= month <= 12:
+    print(f"month {month} has {days_in_a_month[month]} days")
+else:
+    print("month not found")
+
+
